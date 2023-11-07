@@ -8,7 +8,7 @@ function App() {
   
   const[todos, setTodos] = useState([]);
   
-
+// this is handleTodo Function
   const handleTodo = (text)=>{
     const newItem = {
       title : text,
